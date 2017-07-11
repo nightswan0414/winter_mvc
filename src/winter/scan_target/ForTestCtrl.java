@@ -61,4 +61,12 @@ public class ForTestCtrl
 	{
 		return dao.toString();
 	}
+	
+	@RequestMapping(value="/ping6.do")
+	@ResponseBody
+	public String ping6() throws Exception
+	{
+		return dao.findTheTime();
+	}
+	
 }

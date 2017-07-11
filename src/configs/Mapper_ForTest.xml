@@ -4,7 +4,7 @@
 
 <mapper namespace="ForTest">
 
-	<select id="TheTime" resultType="java.lang.String">
+	<select id="findTheTime" resultType="java.lang.String">
 		SELECT NOW()
 	</select>
 

@@ -14,7 +14,7 @@
 		<property name="password" value="1111"/>
 		<property name="driverClassName" 
 			value="com.mysql.jdbc.Driver"/>
-		<property name="url" value="jdbc:mysql://127.0.0.1:3306/kiwi"/>			
+		<property name="url" value="jdbc:mysql://127.0.0.1:3306/study_db"/>			
 		<property name="initialSize" value="1"/>
 		<property name="maxActive" value="1"/>
 		<property name="maxIdle" value="1"/>
