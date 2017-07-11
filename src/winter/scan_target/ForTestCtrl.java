@@ -8,11 +8,11 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.transaction.support.TransactionTemplate;
 
-import winter.main.annotations.Controller;
-import winter.main.annotations.ModelAttribute;
-import winter.main.annotations.RequestMapping;
-import winter.main.annotations.RequestParam;
-import winter.main.annotations.ResponseBody;
+import winter.annotations.Controller;
+import winter.annotations.ModelAttribute;
+import winter.annotations.RequestMapping;
+import winter.annotations.RequestParam;
+import winter.annotations.ResponseBody;
 
 @Controller
 public class ForTestCtrl 

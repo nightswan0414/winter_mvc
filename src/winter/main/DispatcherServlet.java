@@ -18,9 +18,9 @@ import javax.servlet.http.HttpServletResponse;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.FileSystemXmlApplicationContext;
 
-import winter.main.annotations.Controller;
-import winter.main.annotations.RequestMapping;
-import winter.main.annotations.ResponseBody;
+import winter.annotations.Controller;
+import winter.annotations.RequestMapping;
+import winter.annotations.ResponseBody;
 
 @SuppressWarnings("serial")
 public class DispatcherServlet extends HttpServlet

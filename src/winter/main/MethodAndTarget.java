@@ -10,8 +10,8 @@ import javax.servlet.http.HttpSession;
 import org.mybatis.spring.SqlSessionTemplate;
 import org.springframework.context.ApplicationContext;
 
-import winter.main.annotations.ModelAttribute;
-import winter.main.annotations.RequestParam;
+import winter.annotations.ModelAttribute;
+import winter.annotations.RequestParam;
 
 public class MethodAndTarget
 {

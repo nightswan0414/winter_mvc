@@ -1,9 +1,9 @@
-package winter.main.annotations;
+package winter.annotations;
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 
 @Retention(RetentionPolicy.RUNTIME)
-public @interface Controller {
-
+public @interface RequestParam {
+	public String value();
 }
