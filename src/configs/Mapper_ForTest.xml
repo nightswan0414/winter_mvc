@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="ForTest">
+
+	<select id="TheTime" resultType="java.lang.String">
+		SELECT NOW()
+	</select>
+
+</mapper>
+<!--	
+
+	<select id="abcd2" resultType="java.lang.String">
+	SELECT TO_CHAR(SYSDATE,'HH24:MI:SS') AS T FROM DUAL
+	</select>
+	
+	<insert id="add" parameterType="java.lang.String">
+	INSERT INTO TestAppleT VALUES ( 4, #{value:VARCHAR} )
+	</insert>
+	
+	<delete id="del" parameterType="java.lang.Integer">
+	DELETE FROM TestAppleT WHERE no = #{value:INTEGER}
+	</delete>
+	
+	<insert id="add2" parameterType="main.TestAppleVO">
+	INSERT INTO TestAppleT VALUES 
+		( #{no:INTEGER}, #{data:VARCHAR} )
+	</insert>
+	
+	<resultMap id="RM_TestApple" type="main.TestAppleVO">
+		<result column="n" property="no" 
+			jdbcType="INTEGER" javaType="java.lang.Integer"/>
+		<result column="d" property="data" 
+			jdbcType="VARCHAR" javaType="java.lang.String"/>
+	</resultMap>
+	
+	<select id="sel2" resultMap="RM_TestApple">
+	SELECT no AS n, data AS d FROM TestAppleT ORDER BY no DESC
+	</select>
+-->
+
+
+
+
+
+
+
+
+
+
+
+

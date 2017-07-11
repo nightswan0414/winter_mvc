@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+		http://www.springframework.org/schema/beans/spring-beans-4.1.xsd
+		http://www.springframework.org/schema/context  
+		http://www.springframework.org/schema/context/spring-context-4.1.xsd">
+		
+	<bean id="ds" class="org.apache.commons.dbcp.BasicDataSource">
+		<property name="username" value="root"/>
+		<property name="password" value="1111"/>
+		<property name="driverClassName" 
+			value="com.mysql.jdbc.Driver"/>
+		<property name="url" value="jdbc:mysql://127.0.0.1:3306/study_db"/>
+		<!--			
+		<property name="initialSize" value="1"/>
+		<property name="maxActive" value="1"/>
+		<property name="maxIdle" value="1"/>
+		<property name="minIdle" value="1"/>
+		-->
+	</bean>
+	
+	<bean id="factory" class="org.mybatis.spring.SqlSessionFactoryBean">
+		<property name="dataSource" ref="ds"/>
+		<property name="configLocation" value="classpath:SqlSessionConfig.xml"/>
+	</bean>
+	
+	<bean id="sqlSessionTemplate" class="org.mybatis.spring.SqlSessionTemplate">
+		<constructor-arg index="0" ref="factory"/>
+	</bean>
+
+	<bean id="txmgr" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+		<property name="dataSource" ref="ds"/>
+	</bean>
+	
+	<bean id="transactionTemplate" class="org.springframework.transaction.support.TransactionTemplate">
+		<property name="transactionManager" ref="txmgr"/>
+	</bean>
+	
+	<bean id="viewResolver" class="mango.main.ViewResolver">
+		<property name="prefix" value="WEB-INF/jsp/"/>
+		<property name="suffix" value=".jsp"/>
+	</bean>
+
+	<bean id="ctrlTest" class="mango.scan_target.ForTestCtrl"></bean>
+	<bean class="mango.scan_target.ForTestDAO" />
+
+</beans>
+
+<!--
+
+spring-aop-4.1.7.RELEASE.jar
+spring-beans-4.1.7.RELEASE.jar
+spring-context-4.1.7.RELEASE.jar
+spring-context-support-4.1.7.RELEASE.jar
+spring-core-4.1.7.RELEASE.jar
+spring-expression-4.1.7.RELEASE.jar
+spring-jdbc-4.1.7.RELEASE.jar
+spring-tx-4.1.7.RELEASE.jar
+
+-->
