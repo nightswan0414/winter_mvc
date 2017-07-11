@@ -1,11 +1,10 @@
-package mango.main;
+package winter.main;
 
 import java.io.IOException;
 import java.io.OutputStream;
 import java.io.PrintWriter;
 import java.lang.reflect.Method;
 import java.util.Hashtable;
-import java.util.List;
 import java.util.Map;
 
 import javax.servlet.RequestDispatcher;
@@ -16,12 +15,12 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import mango.main.annotations.Controller;
-import mango.main.annotations.RequestMapping;
-import mango.main.annotations.ResponseBody;
-
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.FileSystemXmlApplicationContext;
+
+import winter.main.annotations.Controller;
+import winter.main.annotations.RequestMapping;
+import winter.main.annotations.ResponseBody;
 
 @SuppressWarnings("serial")
 public class DispatcherServlet extends HttpServlet

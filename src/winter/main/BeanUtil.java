@@ -1,11 +1,10 @@
-package mango.main;
+package winter.main;
 
 import java.lang.reflect.Method;
 import javax.servlet.http.HttpServletRequest;
 
 public class BeanUtil 
 {
-	
 	public static void cTypeTransferProps( HttpServletRequest request, 
 		Object pvo )
 	{

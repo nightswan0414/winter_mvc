@@ -7,7 +7,7 @@
 		http://www.springframework.org/schema/context  
 		http://www.springframework.org/schema/context/spring-context-3.2.xsd">
 
-	<context:component-scan base-package="mango.autoscan.target" />
+	<context:component-scan base-package="winter.autoscan.target" />
 			
 	<bean id="ds" class="org.apache.commons.dbcp.BasicDataSource">
 		<property name="username" value="root"/>
@@ -38,12 +38,12 @@
 		<property name="transactionManager" ref="txmgr"/>
 	</bean>
 	
-	<bean id="viewResolver" class="mango.main.ViewResolver">
+	<bean id="viewResolver" class="winter.main.ViewResolver">
 		<property name="prefix" value="WEB-INF/jsp/"/>
 		<property name="suffix" value=".jsp"/>
 	</bean>
 
-	<bean id="ctrlTest" class="mango.scan_target.ForTestCtrl"></bean>
-	<bean class="mango.scan_target.ForTestDAO" />
+	<bean id="ctrlTest" class="winter.scan_target.ForTestCtrl"></bean>
+	<bean class="winter.scan_target.ForTestDAO" />
 	
 </beans>

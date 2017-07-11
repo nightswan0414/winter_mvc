@@ -1,4 +1,4 @@
-package mango.main;
+package winter.main;
 
 import java.lang.annotation.Annotation;
 import java.lang.reflect.Method;
@@ -7,11 +7,11 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
-import mango.main.annotations.ModelAttribute;
-import mango.main.annotations.RequestParam;
-
 import org.mybatis.spring.SqlSessionTemplate;
 import org.springframework.context.ApplicationContext;
+
+import winter.main.annotations.ModelAttribute;
+import winter.main.annotations.RequestParam;
 
 public class MethodAndTarget
 {

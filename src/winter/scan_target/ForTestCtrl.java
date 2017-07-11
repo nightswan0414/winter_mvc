@@ -1,4 +1,4 @@
-package mango.scan_target;
+package winter.scan_target;
 
 import javax.servlet.http.HttpServletRequest;
 
@@ -8,11 +8,11 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.transaction.support.TransactionTemplate;
 
-import mango.main.annotations.Controller;
-import mango.main.annotations.ModelAttribute;
-import mango.main.annotations.RequestMapping;
-import mango.main.annotations.RequestParam;
-import mango.main.annotations.ResponseBody;
+import winter.main.annotations.Controller;
+import winter.main.annotations.ModelAttribute;
+import winter.main.annotations.RequestMapping;
+import winter.main.annotations.RequestParam;
+import winter.main.annotations.ResponseBody;
 
 @Controller
 public class ForTestCtrl 

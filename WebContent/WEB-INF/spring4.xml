@@ -38,13 +38,13 @@
 		<property name="transactionManager" ref="txmgr"/>
 	</bean>
 	
-	<bean id="viewResolver" class="mango.main.ViewResolver">
+	<bean id="viewResolver" class="winter.main.ViewResolver">
 		<property name="prefix" value="WEB-INF/jsp/"/>
 		<property name="suffix" value=".jsp"/>
 	</bean>
 
-	<bean id="ctrlTest" class="mango.scan_target.ForTestCtrl"></bean>
-	<bean class="mango.scan_target.ForTestDAO" />
+	<bean id="ctrlTest" class="winter.scan_target.ForTestCtrl"></bean>
+	<bean class="winter.scan_target.ForTestDAO" />
 
 </beans>
 

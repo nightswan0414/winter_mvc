@@ -1,4 +1,4 @@
-package mango.main.annotations;
+package winter.main.annotations;
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;

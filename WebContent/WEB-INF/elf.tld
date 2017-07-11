@@ -12,91 +12,91 @@
 <!--
 	<function>
 		<name>existInt</name>
-		<function-class>mango.main.ELFunctions</function-class>
+		<function-class>winter.main.ELFunctions</function-class>
 		<function-signature>boolean existInt(java.lang.Integer,java.util.List)</function-signature>
 	</function>   
 
 	<function>
 		<name>notExistInt</name>
-		<function-class>mango.main.ELFunctions</function-class>
+		<function-class>winter.main.ELFunctions</function-class>
 		<function-signature>boolean notExistInt(java.lang.Integer,java.util.List)</function-signature>
 	</function>   
 
 	<function>
 		<name>defaultDesign</name>
-		<function-class>mango.main.ELFunctions</function-class>
+		<function-class>winter.main.ELFunctions</function-class>
 		<function-signature>java.lang.String defaultDesign(java.lang.String,java.lang.String)</function-signature>
 	</function>   
 
 	<function>
 		<name>changeSpecialChar</name>
-		<function-class>mango.main.ELFunctions</function-class>
+		<function-class>winter.main.ELFunctions</function-class>
 		<function-signature>java.lang.String changeSpecialChar(java.lang.String)</function-signature>
 	</function>   
 
 	<function>
 		<name>config</name>
-		<function-class>mango.main.ELFunctions</function-class>
+		<function-class>winter.main.ELFunctions</function-class>
 		<function-signature>int config(java.lang.String)</function-signature>
 	</function>   
 
 	<function>
 		<name>talkNoCount</name>
-		<function-class>mango.main.ELFunctions</function-class>
+		<function-class>winter.main.ELFunctions</function-class>
 		<function-signature>int talkNoCount(java.util.List,int)</function-signature>
 	</function>   
 
 	<function>
 		<name>isNotNull</name>
-		<function-class>mango.main.ELFunctions</function-class>
+		<function-class>winter.main.ELFunctions</function-class>
 		<function-signature>boolean isNotNull(java.lang.Object)</function-signature>
 	</function>   
 
 	<function>
 		<name>isNull</name>
-		<function-class>mango.main.ELFunctions</function-class>
+		<function-class>winter.main.ELFunctions</function-class>
 		<function-signature>boolean isNull(java.lang.Object)</function-signature>
 	</function>   
 
 	<function>
 		<name>isTrue</name>
-		<function-class>mango.main.ELFunctions</function-class>
+		<function-class>winter.main.ELFunctions</function-class>
 		<function-signature>boolean isTrue(java.lang.Boolean)</function-signature>
 	</function>   
 
 	<function>
 		<name>isFalse</name>
-		<function-class>mango.main.ELFunctions</function-class>
+		<function-class>winter.main.ELFunctions</function-class>
 		<function-signature>boolean isFalse(java.lang.Boolean)</function-signature>
 	</function>   
 
 	<function>
 		<name>emptyList</name>
-		<function-class>mango.main.ELFunctions</function-class>
+		<function-class>winter.main.ELFunctions</function-class>
 		<function-signature>boolean emptyList(java.util.List)</function-signature>
 	</function>   
 
 	<function>
 		<name>validList</name>
-		<function-class>mango.main.ELFunctions</function-class>
+		<function-class>winter.main.ELFunctions</function-class>
 		<function-signature>boolean validList(java.util.List)</function-signature>
 	</function>   
 
 	<function>
 		<name>su</name>
-		<function-class>mango.main.ELFunctions</function-class>
+		<function-class>winter.main.ELFunctions</function-class>
 		<function-signature>boolean su(java.lang.String)</function-signature>
 	</function>   
 
 	<function>
 		<name>notSu</name>
-		<function-class>mango.main.ELFunctions</function-class>
+		<function-class>winter.main.ELFunctions</function-class>
 		<function-signature>boolean notSu(java.lang.String)</function-signature>
 	</function>   
 
 	<function>
 		<name>utf8</name>
-		<function-class>mango.main.ELFunctions</function-class>
+		<function-class>winter.main.ELFunctions</function-class>
 		<function-signature>
 		java.lang.String utf8(java.lang.String)
 		</function-signature>
@@ -104,7 +104,7 @@
 
 	<function>
 		<name>u8</name>
-		<function-class>mango.main.ELFunctions</function-class>
+		<function-class>winter.main.ELFunctions</function-class>
 		<function-signature>
 		java.lang.String u8(java.lang.String)
 		</function-signature>
@@ -112,7 +112,7 @@
 
 	<function>
 		<name>shortDot</name>
-		<function-class>mango.main.ELFunctions</function-class>
+		<function-class>winter.main.ELFunctions</function-class>
 		<function-signature>
 		java.lang.String shortDot(java.lang.String)
 		</function-signature>
@@ -120,7 +120,7 @@
 
 	<function>
 		<name>nvl</name>
-		<function-class>mango.main.ELFunctions</function-class>
+		<function-class>winter.main.ELFunctions</function-class>
 		<function-signature>
 		java.lang.String nvl( java.lang.String, java.lang.String )
 		</function-signature>
@@ -128,7 +128,7 @@
 
 	<function>
 		<name>indentation</name>
-		<function-class>mango.main.ELFunctions</function-class>
+		<function-class>winter.main.ELFunctions</function-class>
 		<function-signature>
 		java.lang.String indentation( java.lang.Integer, java.lang.String)
 		</function-signature>
@@ -136,7 +136,7 @@
 
 	<function>
 		<name>doneCodeText</name>
-		<function-class>mango.main.ELFunctions</function-class>
+		<function-class>winter.main.ELFunctions</function-class>
 		<function-signature>
 		java.lang.String doneCodeText(java.lang.String)
 		</function-signature>
@@ -144,7 +144,7 @@
 
 	<function>
 		<name>doneCodeAlert</name>
-		<function-class>mango.main.ELFunctions</function-class>
+		<function-class>winter.main.ELFunctions</function-class>
 		<function-signature>
 		java.lang.String doneCodeAlert(java.lang.String)
 		</function-signature>
